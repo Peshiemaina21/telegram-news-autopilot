@@ -1,0 +1,14 @@
+# Text file normalization
+# See https://github.com/github/linguist
+
+*.htm linguist-vendored
+*.yml linguist-detectable=false
+
+package-lock.json linguist-generated
+*.md linguist-documentation
+*.tsx linguist-detectable
+src/*.ts linguist-detectable
+*.min.js linguist-generated
+Cargo.lock linguist-generated
+dist/* linguist-vendored
+examples/site/*.html linguist-vendored
