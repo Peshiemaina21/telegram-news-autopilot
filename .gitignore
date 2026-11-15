@@ -1,0 +1,6 @@
+.DS_Store
+.env
+coverage/
+.pnpm-store/
+.next/
+build/
